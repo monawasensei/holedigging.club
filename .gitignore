@@ -1,0 +1,9 @@
+*.old
+*.vscode
+archive/images/*
+archive/archive.db*
+archive/thumbnails/*
+contribute/fossil/*
+syncStates/*
+highest_stratum/*
+potatofieldsData/*
