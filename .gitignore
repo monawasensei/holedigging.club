@@ -2,6 +2,7 @@
 *.vscode
 archive/images/*
 archive/archive.db*
+archive/archive.ydb*
 archive/thumbnails/*
 contribute/fossil/*
 syncStates/*
