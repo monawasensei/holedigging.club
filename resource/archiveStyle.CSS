@@ -5,12 +5,12 @@
   
   @font-face {
     font-family: openSansCondBold;
-    src: url(../fonts/OpenSansCondensed-Bold.ttf);
+    src: url(fonts/OpenSansCondensed-Bold.ttf);
   }
   
   @font-face {
     font-family: ralewayBold;
-    src: url(../fonts/Raleway-ExtraBold.ttf);
+    src: url(fonts/Raleway-ExtraBold.ttf);
   }
   
   * {
@@ -18,7 +18,7 @@
   }
   
   body {
-    background-image: url(../images/ai-lang.jpeg);
+    background-image: url(images/ai-lang.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

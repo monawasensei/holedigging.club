@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery</title>
 
-  <link rel="stylesheet" href="archiveStyle.CSS">
+  <link rel="stylesheet" href="../resource/archiveStyle.CSS">
 </head>
 <body>
   <div class="gallery">
