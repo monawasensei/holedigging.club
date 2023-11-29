@@ -3,6 +3,7 @@
 archive/images/*
 archive/archive.db*
 archive/archive.ydb*
+archive/imobooru.db*
 archive/thumbnails/*
 contribute/fossil/*
 syncStates/*
