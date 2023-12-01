@@ -188,6 +188,20 @@ a {
   outline-color: var(--col-grey);
 }
 
+.image-tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-tags > form {
+  display: flex;
+}
+
 /* Buttons */
 .btn-primary {
   background-color: black;
