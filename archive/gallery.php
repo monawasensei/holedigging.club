@@ -7,6 +7,7 @@
   <title>Gallery</title>
 
   <link rel="stylesheet" href="../resource/stylesheet.css">
+  <link rel="icon" type="image/x-icon" href="../resource/favicon.ico">
 </head>
 <body>
   <div class="gallery">
