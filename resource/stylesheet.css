@@ -188,19 +188,38 @@ a {
   outline-color: var(--col-grey);
 }
 
-.image-tags {
+/*
+|| /imobooru/image/:image/
+*/
+
+#image-tags {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#image-tags img {
+  max-height: 100dvh;
+}
+
+#image-information {
   display: flex;
   flex-direction: column;
 }
 
-.image-information {
+#tag-form form {
+  display: flex;
+}
+
+#tag-form form div {
+  display: flex;
+}
+
+.tag-list {
   display: flex;
   flex-direction: column;
 }
 
-.submit-tags > form {
-  display: flex;
-}
+/**/
 
 /* Buttons */
 .btn-primary {
