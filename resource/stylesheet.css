@@ -13,6 +13,10 @@
   src: url(fonts/Raleway-ExtraBold.ttf);
 }
 
+/*
+|| General elements
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +39,25 @@ body {
   padding: 0 1rem;
 }
 
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+
+form input {
+  border: 1px solid var(--col-grey);
+  font-weight: bold;
+  background-color: var(--col-yellow);
+  color: var(--col-grey);
+  margin: 0 0 0 1rem;
+}
+
+form input:active {
+  outline-color: var(--col-grey);
+}
+
 input,
 select,
 option,
@@ -42,6 +65,31 @@ label {
   font-family: ralewayBold, sans-serif;
   font-size: 1rem;
 }
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+p {
+  margin: 1rem 0 0;
+}
+
+a {
+  color: var(--col-grey);
+  text-decoration: none;
+}
+
+/*
+|| gallery
+*/
 
 .gallery {
   display: grid;
@@ -65,27 +113,6 @@ label {
 
 .image-link:hover img {
   opacity: 0.8;
-}
-
-img {
-  width: 100%;
-}
-
-h1 {
-  font-size: 120%;
-}
-
-h2 {
-  font-size: 100%;
-}
-
-p {
-  margin: 1rem 0 0;
-}
-
-a {
-  color: var(--col-grey);
-  text-decoration: none;
 }
 
 .contents-box {
@@ -169,7 +196,7 @@ a {
   font-size: 90%;
 }
 
-.entry-form {
+/* .entry-form {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,7 +213,7 @@ a {
 
 .entry-form > input:active {
   outline-color: var(--col-grey);
-}
+} */
 
 /*
 || /imobooru/image/:image/
@@ -221,24 +248,6 @@ a {
 
 /**/
 
-/* Buttons */
-.btn-primary {
-  background-color: black;
-  border: 3px solid black;
-  color: var(--col-yellow);
-  cursor: pointer;
-  display: block;
-  font-weight: bold;
-  margin: 1rem 0 0;
-  padding: 0.5rem 1rem;
-}
-
-.btn-primary:hover {
-  background-color: var(--col-yellow);
-  border: 3px solid black;
-  color: black;
-}
-
 .link {
   text-decoration: underline;
 }
@@ -247,7 +256,11 @@ a {
   color: black;
 }
 
-.entry-btn {
+/*
+|| buttons
+*/
+
+.btn {
   background-color: var(--col-yellow);
   border: 1px solid var(--col-grey);
   color: var(--col-grey);
@@ -259,11 +272,13 @@ a {
   padding: 0.25rem 0.25rem;
 }
 
-.entry-btn:hover {
+.btn:hover {
   background-color: var(--col-grey);
   border: 3px solid var(--col-grey);
   color: var(--col-yellow);
 }
+
+/**/
 
 @media screen and (min-width: 600px) {
   .contents-box {
